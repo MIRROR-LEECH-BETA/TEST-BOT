@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-client = MongoClient("mongodb+srv://BETA:BETA@cluster0.uekdm.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://JP:JP@cluster0.auy64.mongodb.net/?retryWrites=true&w=majority")
 
 users = client['main']['bots']
 
